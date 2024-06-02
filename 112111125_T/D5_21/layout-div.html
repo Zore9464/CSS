@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout-div</title>
+    <style>
+        body,
+        h1 {
+            margin: 0px;
+        }
+
+        #wrapper {
+            width: 80%;
+            background-color: rgba(165, 42, 42, 0.288);
+            margin: 0px auto;
+
+        }
+
+        #header {
+            height: 300px;
+            background-color: rgba(0, 0, 255, 0.274);
+        }
+
+        #nav {
+            height: 100px;
+            background-color: rgba(222, 184, 135, 0.308);
+        }
+
+        #aside {
+            height: 600px;
+            width: 20%;
+            background-color: rgba(128, 255, 0, 0.356);
+        }
+
+        #section {
+            height: 600px;
+            width: 80%;
+            background-color: rgba(153, 50, 204, 0.356);
+            display: flex;
+            float: right;
+        }
+
+        #footer {
+            height: 100px;
+            background-color: rgba(0, 128, 0, 0.315);
+            clear: both;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header"></div>
+
+        <div id="nav"></div>
+        <div id="main">
+            <div id="aside"></div>
+            <div id="section"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>

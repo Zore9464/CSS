@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(119, 151, 255);
+}
+
+footer {
+    height: 100px;
+    background-color: rgba(142, 229, 255, 0.918);
+    clear: both;
+}
+
+main {
+    min-height: 1000px;
+    background-color: rgb(211, 180, 240);
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(104, 62, 62);
+}
+
+aside {
+    min-height: 1000px;
+    width: 80%;
+    background-color: #a85757;
+    float: right;
+}
+
+section {
+    min-height: 1000px;
+    width: 20%;
+    background-color: #74292d;
+    float: right;
+}
