@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout-tag</title>
+
+    <style>
+        body,
+        h1 {
+            margin: 0px;
+        }
+
+        #wrapper {
+            width: 80%;
+            background-color: rgba(165, 42, 42, 0.288);
+            margin: 0px auto;
+
+        }
+
+        header {
+            height: 300px;
+            background-color: rgba(0, 0, 255, 0.274);
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgba(222, 184, 135, 0.308);
+        }
+
+        aside {
+            height: 600px;
+            width: 20%;
+            background-color: rgba(128, 255, 0, 0.356);
+            float: left;
+        }
+
+        .section_sub {
+            width: 95%;
+            height: 265px;
+            margin: 10px auto;
+            background-color: rgb(58, 28, 255);
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        section {
+            height: 600px;
+            width: 80%;
+            background-color: darkorange;
+            float: left;
+
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgba(0, 128, 0, 0.315);
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>header</header>
+        <nav>nav</nav>
+        <main>
+            <aside>aside</aside>
+            <section>
+
+                <div class="section_sub">
+                    section
+                </div>
+
+
+                <div class="section_sub">
+                    section
+                </div>
+
+            </section>
+
+
+        </main>
+        <footer>footer</footer>
+    </div>
+</body>
+
+</html>
